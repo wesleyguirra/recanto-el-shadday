@@ -1,0 +1,258 @@
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*::                        ABOUT                           ::*/
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+#subheader {
+    background: url(../img/SUB-BAR.jpg);
+    background-size: cover;
+}
+
+#subheader h1 {
+    color: #fff;
+    font: 300 1.875rem 'Oswald', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#subheader-al {
+    box-shadow:         0px 2px 5px 0px rgba(150, 150, 150, 0.1);
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(150, 150, 150, 0.1);
+    -moz-box-shadow:    0px 2px 5px 0px rgba(150, 150, 150, 0.1);
+}
+
+#subheader-al h1 {
+    color: #000;
+    font: 300 1.875rem 'Oswald', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    padding: 10px 0;
+    text-align: center;
+}
+
+p {
+    color: #666666;
+    line-height: 16px;
+    font: 100 1rem 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+#content-about,
+#m-qualities,
+#map,
+#local,
+#contact,
+#condicoes,
+#gallery {
+    padding: 50px 0;
+}
+
+#m-qualities h2 {
+    text-align: center;
+    color: #333;
+    font: 400 1.125rem 'Oswald', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+.divider {
+    height: 1px;
+    margin: 20px 0;
+    background-color: #449bc2;
+}
+
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*::                        LOCAL                           ::*/
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+#map {
+    width: 100%;
+}
+
+#map iframe {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.local-box {
+    background-color: #449bc2;
+    padding; 80px !important;
+}
+
+.local-box h3 {
+    display: block;
+    padding: 20px 0 0 0;
+    text-transform: uppercase;
+    color: #fff;
+    font: 400 1.125rem 'Oswald', Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.local-box p {
+    text-align: center;
+    padding-bottom: 40px;
+    color: white;
+}
+
+.print a{
+    text-align: right;
+    font: 400 1.125rem 'Oswald';
+    color: #333;
+    text-decoration: none;
+}
+
+textarea {
+    height: 100px !important;
+}
+
+#contact input,
+#contact textarea,
+#contact input:focus,
+#contact textarea:focus{
+    padding: 10px;
+    background: #eee;
+    resize: none;
+    width: 100%;
+    margin: 10px;
+    outline: none;
+    border: none;
+}
+
+#contact h3 {
+    text-transform: uppercase;
+    padding: 0 10px;
+    font: 400 1.5rem 'Oswald', Arial, Helvetica, sans-serif;
+}
+
+#contact i {
+    padding-left: 10px;
+}
+
+#contact span{
+    padding-left: 12px;
+    font: 300 1.125rem 'Oswald';
+    letter-spacing: 2px;
+}
+
+#contact p {
+    padding-top: 10px;
+}
+
+#content-about p {
+    margin-top: 0;
+}
+
+#content-about h2 {
+    color: #333;
+    font: 400 1.125rem 'Oswald', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.button {
+    font: 400 1.125rem 'Oswald', Arial, Helvetica, sans-serif;
+    transition:         linear 0.2s;
+    -webkit-transition: linear 0.2s;
+    -moz-transition:    linear 0.2s;
+}
+
+.button:hover {
+    background: #449bc2 !important;
+    color: #fff;
+}
+
+.condicoes {
+    background: #dd3333;
+}
+
+#condicoes h1 {
+    color: #fff;
+    font: 400 1.6rem 'Oswald', Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#condicoes a {
+    text-transform: uppercase;
+    width: 180px;
+    color: #fff;
+    font: 400 1.125rem 'Open Sans', Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin: 20px auto;
+    text-align: center;
+    display: block;
+    padding: 10px 40px;
+    border-radius: 5px;
+    background: rgba(250, 250, 250, 0.3);
+/*    box-shadow: 0px 0px 2px 0px rgba(250, 250, 250, 0.8);*/
+    transition: ease-out 0.2s;
+    -webkit-transition: ease-out 0.2s;
+    -moz-transition: ease-out 0.2s;
+    border: solid 1px rgba(250, 250, 250, 0.2);
+}
+
+#condicoes a:hover {
+/*    box-shadow: 0px 0px 2px 0px rgba(250, 250, 250, 0.3);*/
+    border: solid 1px rgba(250, 250, 250, 1);
+    background: rgba(250, 250, 250, 0);
+}
+
+.conditions {
+    padding: 50px 0;
+}
+
+.conditions p{
+    text-align: justify;
+}
+
+.title-conditions {
+    font: 400 1.5rem 'Oswald', Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.main-title-conditions {
+    font: 400 1.7rem 'Oswald', Arial, Helvetica, sans-serif;
+    color: #666;
+    text-align: center;
+    padding: 20px 0;
+    text-transform: uppercase;
+}
+
+#gallery h2 {
+    text-align: center;
+    color: #333;
+    font: 400 1.5rem 'Oswald', Arial, Helvetica, sans-serif;
+}
+
+#gallery img {
+    margin: 15px 0;
+    box-shadow:         0px 0px 15px -1px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 0px 15px -1px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow:    0px 0px 15px -1px rgba(0, 0, 0, 0.3);
+    transition:         linear 0.4s;
+    -webkit-transition: linear 0.4s;
+    -moz-transition:    linear 0.4s;
+    
+}
+
+#content-about img,
+#m-qualities img {
+    box-shadow:         0px 0px 15px -1px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 0px 15px -1px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow:    0px 0px 15px -1px rgba(0, 0, 0, 0.3);
+}
+
+#gallery img:hover {
+    box-shadow:         0 0 0 0 rgba(0, 0, 0, 0);
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    -moz-box-shadow:    0 0 0 0 rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+@media print {
+    *{
+        display: none;
+    }
+    
+    #map {
+        display: block !important;
+    }
+}

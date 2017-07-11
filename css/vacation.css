@@ -1,0 +1,263 @@
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*::                 TOP BAR FULL WIDTH                     ::*/
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+#top-bar {
+    background: #55caff;
+}
+
+#top-bar span {
+    font: 300 1.5rem 'Oswald', Arial, Helvetica, sans-serif;
+    float: right;
+    color: #fff;
+    padding: 2px 10px;
+    letter-spacing: 3px;
+}
+
+
+
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*::                        HEADER                          ::*/
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+header {
+    box-shadow:         0px 2px 5px 0px rgba(150, 150, 150, 0.1);
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(150, 150, 150, 0.1);
+    -moz-box-shadow:    0px 2px 5px 0px rgba(150, 150, 150, 0.1);
+}
+
+header .logo {
+    margin-top: -1.25rem;
+    padding-bottom: 10px;
+    max-height: 100%;
+}
+
+header i {
+    float: right;
+    color: #3b3b3b;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+    transition: linear 0.3s;
+    -webkit-transition: linear 0.3s;
+    -moz-transition: linear 0.3s;
+}
+
+header i:hover {
+    text-shadow:         0px 0px 5px rgba(150, 150, 150, 0.5);
+    -webkit-text-shadow: 0px 0px 5px rgba(150, 150, 150, 0.5);
+    -moz-text-shadow:    0px 0px 5px rgba(150, 150, 150, 0.5);
+    cursor: pointer;
+}
+
+header i span {
+    font: 400 0.6rem 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+header nav a {
+    display: inline-block;
+    padding: 25px 0;
+    margin: 0 18px;
+    text-decoration: none;
+    color: #3b3b3b;
+    font: 300 1.188rem 'Oswald', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    transition: linear 0.3s;
+    -webkit-transition: linear 0.3s;
+    -moz-transition: linear 0.3s;
+    
+}
+
+header nav a:hover {
+    text-shadow:         0px 0px 5px rgba(150, 150, 150, 0.5);
+    -webkit-text-shadow: 0px 0px 5px rgba(150, 150, 150, 0.5);
+    -moz-text-shadow:    0px 0px 5px rgba(150, 150, 150, 0.5);
+}
+
+#menu-mobile {
+    background: #3b3b3b;
+    padding: 5px;
+}
+
+#menu-mobile li {
+    transition: linear 0.3s;
+    -webkit-transition: linear 0.3s;
+    -moz-transition: linear 0.3s;
+}
+
+#menu-mobile li:hover {
+    background: #3b3b3b;
+}
+
+#menu-mobile li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font: 300 0.750rem 'Open Sans', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    transition: linear 0.3s;
+    -webkit-transition: linear 0.3s;
+    -moz-transition: linear 0.3s;
+}
+
+#menu-mobile li a:hover {
+    color: #55caff;
+}
+
+
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*::                    TITLE SLIDER                        ::*/
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+#slide img {
+    width: 100%;
+}
+
+.s-title {
+    text-decoration: none;
+    display: block;
+    margin: 70px auto;
+    text-align: center;
+    width: 190px;
+    height: 50px;
+    background: rgba(250, 250, 250, 0.2);
+    padding: 10px 15px;
+    border-radius: 4px;
+    font: 300 1.25rem 'Oswald', Arial, Helvetica, sans-serif;
+    color: rgba(250, 250, 250, 1);
+    border: solid 1px rgba(250, 250, 250, 0.2);
+    transition: linear 0.2s;
+    -webkit-transition: linear 0.2s;
+    -moz-transition: linear 0.2s;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-shadow:         0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+    -webkit-text-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+    -moz-text-shadow:    0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.s-title:hover {
+    background: rgba(250, 250, 250, 0);
+    border: solid 1px rgba(250, 250, 250, 1);
+    text-shadow:         0px 0px 5px 0px rgba(0, 0, 0, 1);
+    -webkit-text-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 1);
+    -moz-text-shadow:    0px 0px 5px 0px rgba(0, 0, 0, 1);
+    box-shadow:         0px 0px 2px 0px rgba(250, 250, 250, 1);
+    -webkit-box-shadow: 0px 0px 2px 0px rgba(250, 250, 250, 1);
+    -moz-box-shadow:    0px 0px 2px 0px rgba(250, 250, 250, 1);
+}
+
+
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*::                     SHORTCUTS                          ::*/
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+#shortcuts {
+    padding: 35px 0px;
+    background: #e8f8ff;
+}
+
+#shortcuts a {
+    text-decoration: none;
+}
+
+#shortcuts img {
+    display: block;
+    margin: 0 auto;
+    border: solid 2px #55caff;
+}
+
+#shortcuts h2, #shortcuts h2:visited {
+    font: 300 1.5rem 'Oswald', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: #6c6c6c;
+}
+
+#shortcuts p {
+    font: 300 0.875rem 'Open Sans', Arial, Helvetica, sans-serif;
+    color: #000;
+    text-align: justify;
+}
+
+#booking {
+    background: url(../img/6.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#booking img {
+    padding: 40px 0px;
+    display: block;
+    transition: linear 0.2s; 
+    -webkit-transition: linear 0.2s;
+    -moz-transition: linear 0.2s;   
+}
+
+.testimonial-box {
+    background: #efefef;
+    height: 200px;
+    margin: 50px 0;
+}
+
+.testimonial-box i {
+    display: inline-block;
+    margin: -10px 0 0 -10px;
+    color: #4e4e4e;
+}
+
+.testimonial-box a {
+    display: inline-block;
+    margin: 0 0 0 20px;
+    color: #4e4e4e;
+    font: bold 0.875rem Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.testimonial-box p{
+    color: #4e4e4e;
+    font: italic 100 1rem Arial, Helvetica;
+    padding:0 20px 20px 20px;
+    text-align: justify;
+}
+
+.pad {
+    padding: 30px;
+}
+
+footer {
+    background: #55caff;
+}
+
+footer h2 {
+    color: #fff;
+    font: 600 1rem 'Open Sans', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+footer p {
+    color: #4e4e4e;
+    font: 300 1rem 'Open Sans', Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+#bottom-bar {
+    background: #449bc2;
+}
+
+#bottom-bar a {
+    max-width: 100%;
+    text-align: center;
+    display: block;
+    color: #55caff;
+    text-decoration: none;
+    font: 300 1rem 'Open Sans', Arial, Helvetica, sans-serif;
+    padding: 10px 0;
+}
+
+#bottom-bar i {
+    color: white;
+    text-align: left !important;
+}
+
+#bottom-bar span {
+    font: 300 1rem 'Oswald', Arial, Helvetica, sans-serif;
+    padding-left: 3px;
+}

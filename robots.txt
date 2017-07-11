@@ -1,0 +1,15 @@
+User-agent: Googlebot
+User-agent: Slurp
+User-agent: MSNBot
+User-agent: Googlebot-Image
+Disallow: 
+User-agent: yahoo-mmcrawler
+Disallow: 
+User-agent: psbot
+Disallow: 
+User-agent: *
+Disallow: 
+Disallow: /img
+Disallow: /css
+Disallow: /fonts
+Disallow: /js
